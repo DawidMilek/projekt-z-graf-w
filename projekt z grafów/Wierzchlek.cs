@@ -37,5 +37,10 @@ namespace projekt_z_grafów
         {
             return (int)Math.Sqrt(Math.Pow(Polozenie.X - p.X, 2) + Math.Pow(Polozenie.Y - p.Y, 2));
         }
+
+        public static void rest()
+        {
+            newId = 0;
+        }
     }
 }

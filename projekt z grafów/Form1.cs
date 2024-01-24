@@ -165,7 +165,7 @@ namespace projekt_z_grafów
             wierzcholki.Clear();
             D_lista_wierzcholkow.Items.Clear();
             D_wyniki.Items.Clear();
-
+            Wierzchlek.rest();
             g.Clear(Color.White);
             pictureBox1.Refresh();
         }
